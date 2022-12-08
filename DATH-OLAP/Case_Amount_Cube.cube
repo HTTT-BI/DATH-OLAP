@@ -1,0 +1,214 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9da30ec2-ed5e-42e5-be33-53bb2c870202" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Case_Amount_Cube</ID>
+  <Name>Case_Amount_Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f7a14aa0-ad3b-4feb-84f3-b8f9cf2cd254">
+      <ID>Dim Case Report</ID>
+      <Name>Dim Case Report</Name>
+      <DimensionID>Dim Case Report</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="54797c64-7ae0-41a1-a586-50a1c5588823">
+          <AttributeID>Id Case</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2153a20-5a06-46be-bb67-d0faf802ce13">
+          <AttributeID>Id Gender Age</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ad0d4380-0a3c-4375-af70-d5259bdada53">
+      <ID>Dim Phu</ID>
+      <Name>Dim Phu</Name>
+      <DimensionID>Dim Phu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="333ee0e0-0136-4e0b-b5bc-19b2f5b40fd5">
+          <AttributeID>Id Phu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="633d0fcb-2c7a-41b0-b989-def21c4de0d1">
+          <AttributeID>Id City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e70875a0-7146-4a59-a0e7-1f07b14bf31d">
+          <AttributeID>Id Phu Group</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="364c1eeb-6574-4a75-84ac-b8cdb95612da">
+      <ID>Dim Day</ID>
+      <Name>Dim Day</Name>
+      <DimensionID>Dim Day</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8c654973-9d14-424d-94d7-e2656bf14b1a">
+          <AttributeID>Id Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="73bd9018-1962-46f6-bdea-164871fab0f0">
+          <AttributeID>Id Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04452669-ce14-45aa-a7ad-a2b4ac4a0574">
+          <AttributeID>Id Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fa8ac04-f5d4-40e1-889b-7b4850a02739">
+          <AttributeID>Id Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="315c8ec3-ada1-4523-940a-2b2b6ee5f6a7">
+      <ID>Fact Case Amount</ID>
+      <Name>Fact Case Amount</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="17c529ad-9915-4223-914b-f9ffe36bd9bd">
+          <ID>Infected Total</ID>
+          <Name>Infected Total</Name>
+          <Source dwd:design-time-name="5a212986-7da0-4666-bba4-de84aa044130">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c5d99f4a-c6ea-4945-8d04-a88376d586bc">
+              <TableID>dbo_fact_case_amount</TableID>
+              <ColumnID>infected_total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="059206dc-719d-4cb9-8f82-6d1776fa6d7e">
+          <ID>Fataled Total</ID>
+          <Name>Fataled Total</Name>
+          <Source dwd:design-time-name="aeb654d5-8435-4583-9e76-7075346897ab">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="648c89a8-056f-4988-b8bb-3ea4ae933db0">
+              <TableID>dbo_fact_case_amount</TableID>
+              <ColumnID>fataled_total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1803b481-0c95-43f8-aad2-5052dc335eb8">
+          <ID>Resolved Total</ID>
+          <Name>Resolved Total</Name>
+          <Source dwd:design-time-name="d22ff1a9-0737-47d3-bb70-6fecf0e302e1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="174cf748-fb47-4cf4-822c-de970b3488ac">
+              <TableID>dbo_fact_case_amount</TableID>
+              <ColumnID>resolved_total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="77c4dd28-286e-4f16-9a88-6a27c0764cfc">
+          <ID>Fact Case Amount Count</ID>
+          <Name>Fact Case Amount Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="cf8e91bd-b788-4508-a63c-dac1870bd488">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1316d455-2f30-458b-a158-38d734c3179b">
+              <TableID>dbo_fact_case_amount</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="073a984e-1901-4bd9-8fb8-175e9dc12df2">
+          <CubeDimensionID>Dim Case Report</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a507af93-88eb-44f7-a355-54c51a88df2c">
+              <AttributeID>Id Case</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="beacb92f-55fe-42d8-98b5-3d41e6933f8f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d113be3d-6e39-4a98-b16c-dbb89f348bfd">
+                    <TableID>dbo_fact_case_amount</TableID>
+                    <ColumnID>id_case</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="75fea839-dd04-466a-827e-513839487c86">
+          <CubeDimensionID>Dim Phu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="72887c59-2089-4c0a-a42d-b1be46d4ad1c">
+              <AttributeID>Id Phu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1ef1b068-969d-403d-96b0-c781ef6bac72">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2409a7f3-9ea0-4695-b69a-0e3db1ea1e1c">
+                    <TableID>dbo_fact_case_amount</TableID>
+                    <ColumnID>id_phu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6e09afce-4fe6-4175-9da8-c5cfbd82b327">
+          <CubeDimensionID>Dim Day</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8381799e-e175-4bc8-84e6-ff7a2f3af295">
+              <AttributeID>Id Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b34f673-3d71-4184-b835-b926d513858e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="394a8d9b-2c8c-4503-a9e5-de547b526d4b">
+                    <TableID>dbo_fact_case_amount</TableID>
+                    <ColumnID>id_day</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="14452f66-c432-4c8b-9a22-d6b59707cbb5">
+    <DataSourceViewID>COVID 19 DDS</DataSourceViewID>
+  </Source>
+</Cube>

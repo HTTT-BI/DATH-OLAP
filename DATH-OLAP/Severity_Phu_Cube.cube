@@ -1,0 +1,161 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8439c2c4-b233-4da9-908c-69f4cc1a2222" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Severity_Phu_Cube</ID>
+  <Name>Severity_Phu_Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f69b3c2c-a97c-4e11-aee2-3441d34c372c">
+      <ID>Dim Phu</ID>
+      <Name>Dim Phu</Name>
+      <DimensionID>Dim Phu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="435ae3fb-b0a3-4fb7-b134-5ce7aa7d45f2">
+          <AttributeID>Id Phu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca56e228-17cd-478c-b5f6-4b9f978b7233">
+          <AttributeID>Id City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a025b7e-42cb-4431-b494-4952503f2de2">
+          <AttributeID>Id Phu Group</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3102e28c-ca83-47a7-a371-531bcbbe13c7">
+      <ID>Dim Day</ID>
+      <Name>Dim Day</Name>
+      <DimensionID>Dim Day</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4ff23b35-14a1-4a5c-8b9a-9727b72fe36e">
+          <AttributeID>Id Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="942ab2fa-e9d6-4e87-83b6-0ef1dbc991d1">
+          <AttributeID>Id Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58334448-c9c5-4479-9097-05b300f22eeb">
+          <AttributeID>Id Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16d093cf-9d5f-49d1-ac0e-2407a1588bb6">
+          <AttributeID>Id Year</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="f5057dfc-6ebd-4910-9ac0-3f4b2f210ee8">
+      <ID>Fact Severity Phu</ID>
+      <Name>Fact Severity Phu</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="9885c26d-dbf7-4178-85d7-152cba42dd76">
+          <ID>Phu Total</ID>
+          <Name>Phu Total</Name>
+          <Source dwd:design-time-name="6625a3a5-c775-47bb-bd80-f771bbe480a1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3521bd74-0bb0-48ed-b562-77f7ccc32423">
+              <TableID>dbo_fact_severity_phu</TableID>
+              <ColumnID>phu_total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="299235e1-acf5-4b34-b2ed-777e7c55e212">
+          <ID>Fact Severity Phu Count</ID>
+          <Name>Fact Severity Phu Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="449c9a93-ad51-4d4c-882e-768568e6679a">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a5ac345e-4185-4d99-9efc-57217f816064">
+              <TableID>dbo_fact_severity_phu</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3a12ffca-7b2d-487c-b712-52ecadc89e4f">
+          <CubeDimensionID>Dim Phu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1d18882f-64fe-4220-8b9f-a6b4c89fa721">
+              <AttributeID>Id Phu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1e7ac8aa-6ccb-4746-bc50-c27537bcaa76">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4646bad2-9cda-41c7-8223-e4156a0bc529">
+                    <TableID>dbo_fact_severity_phu</TableID>
+                    <ColumnID>id_phu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5565d29f-1e83-48df-aace-142fd12ac27f">
+          <CubeDimensionID>Dim Day</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d53dcf29-41a1-42fd-ad5a-5ae06e8be1f6">
+              <AttributeID>Id Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="22567a37-c740-4ab1-af90-709ca9fee9ab">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="919ebf77-8afc-4808-a96a-7adf70e3f717">
+                    <TableID>dbo_fact_severity_phu</TableID>
+                    <ColumnID>id_day</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="b6cdbb05-0ac2-4ba2-93a5-1d1d8fdc3f72">
+    <DataSourceViewID>COVID 19 DDS</DataSourceViewID>
+  </Source>
+</Cube>
