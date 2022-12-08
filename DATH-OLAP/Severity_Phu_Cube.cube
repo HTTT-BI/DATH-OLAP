@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8439c2c4-b233-4da9-908c-69f4cc1a2222" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8f1d3327-f571-41b5-9ad6-eb9cf4b704df" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Severity_Phu_Cube</ID>
   <Name>Severity_Phu_Cube</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -43,44 +43,64 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="f69b3c2c-a97c-4e11-aee2-3441d34c372c">
+    <Dimension dwd:design-time-name="82802878-905f-4afc-94dd-cbc5f004354a">
       <ID>Dim Phu</ID>
       <Name>Dim Phu</Name>
       <DimensionID>Dim Phu</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="435ae3fb-b0a3-4fb7-b134-5ce7aa7d45f2">
+        <Attribute dwd:design-time-name="40cf0988-3f96-4601-8212-f7c81ea1b1ec">
           <AttributeID>Id Phu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ca56e228-17cd-478c-b5f6-4b9f978b7233">
+        <Attribute dwd:design-time-name="90b12359-f563-48b0-8371-091f785d62b7">
           <AttributeID>Id City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7a025b7e-42cb-4431-b494-4952503f2de2">
+        <Attribute dwd:design-time-name="5eed026a-e985-4a75-a4da-9653bd38ab18">
           <AttributeID>Id Phu Group</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="361b9d93-e7be-4b07-b4a9-2efd7e822936">
+          <AttributeID>Phu Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="3102e28c-ca83-47a7-a371-531bcbbe13c7">
+    <Dimension dwd:design-time-name="6d2f6012-4661-4a8e-84f5-6ae6776b3f2a">
       <ID>Dim Day</ID>
       <Name>Dim Day</Name>
       <DimensionID>Dim Day</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4ff23b35-14a1-4a5c-8b9a-9727b72fe36e">
+        <Attribute dwd:design-time-name="9d72e938-d789-4cb7-8e77-f80470d38ca5">
           <AttributeID>Id Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="942ab2fa-e9d6-4e87-83b6-0ef1dbc991d1">
+        <Attribute dwd:design-time-name="9d60d754-f33c-45ff-b2a8-ed0f54c637c5">
           <AttributeID>Id Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="58334448-c9c5-4479-9097-05b300f22eeb">
+        <Attribute dwd:design-time-name="3737e303-2e40-4352-9a5d-dd04aabe8047">
           <AttributeID>Id Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="16d093cf-9d5f-49d1-ac0e-2407a1588bb6">
+        <Attribute dwd:design-time-name="28fc5042-d292-4e38-a6f6-2d34622259a1">
           <AttributeID>Id Year</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b06d5c77-8ff4-452d-928b-04d2a4af5ab5">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="811857ef-e9d9-440d-8559-b4b16f529f75">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa6af4d2-2ebe-40bb-a219-602fc9bb6bbc">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c2f4c30-1964-4ab0-89ab-b9486e7a30ca">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3a18184c-ce0e-45d1-af7c-bf69f63f4abb">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="f5057dfc-6ebd-4910-9ac0-3f4b2f210ee8">
+    <MeasureGroup dwd:design-time-name="1adb01a3-8c2e-41e3-8ad9-47d61521e3f1">
       <ID>Fact Severity Phu</ID>
       <Name>Fact Severity Phu</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -88,25 +108,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="9885c26d-dbf7-4178-85d7-152cba42dd76">
+        <Measure dwd:design-time-name="4964b288-06ae-43ba-943d-4c7051e47950">
           <ID>Phu Total</ID>
           <Name>Phu Total</Name>
-          <Source dwd:design-time-name="6625a3a5-c775-47bb-bd80-f771bbe480a1">
+          <Source dwd:design-time-name="17d31378-49e3-4dce-ad19-948a6cbd115b">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="3521bd74-0bb0-48ed-b562-77f7ccc32423">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1bbe74e-520e-49fa-a287-32f049c55040">
               <TableID>dbo_fact_severity_phu</TableID>
               <ColumnID>phu_total</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="299235e1-acf5-4b34-b2ed-777e7c55e212">
+        <Measure dwd:design-time-name="d3e9ad23-eb82-4a26-82ad-62a7239ae36c">
           <ID>Fact Severity Phu Count</ID>
           <Name>Fact Severity Phu Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="449c9a93-ad51-4d4c-882e-768568e6679a">
+          <Source dwd:design-time-name="72c407be-7a0a-4c07-bfb2-65d9aa617920">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="a5ac345e-4185-4d99-9efc-57217f816064">
+            <Source xsi:type="RowBinding" dwd:design-time-name="3a5debc5-2e40-4c6e-a1e8-40cf291a37ef">
               <TableID>dbo_fact_severity_phu</TableID>
             </Source>
           </Source>
@@ -115,15 +135,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3a12ffca-7b2d-487c-b712-52ecadc89e4f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dfd03854-b75b-4cbe-b11f-7adc3c61205a">
           <CubeDimensionID>Dim Phu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1d18882f-64fe-4220-8b9f-a6b4c89fa721">
+            <Attribute dwd:design-time-name="86d0cf6f-a79b-42c5-be2c-6baccc547f50">
               <AttributeID>Id Phu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1e7ac8aa-6ccb-4746-bc50-c27537bcaa76">
+                <KeyColumn dwd:design-time-name="6d91783b-cb8c-4dfa-b2e3-bde972893fe6">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4646bad2-9cda-41c7-8223-e4156a0bc529">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="38eac414-d736-4236-ab09-da00d0edd079">
                     <TableID>dbo_fact_severity_phu</TableID>
                     <ColumnID>id_phu</ColumnID>
                   </Source>
@@ -133,15 +153,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5565d29f-1e83-48df-aace-142fd12ac27f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d47d341-d192-4d67-907a-450802f365b1">
           <CubeDimensionID>Dim Day</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d53dcf29-41a1-42fd-ad5a-5ae06e8be1f6">
+            <Attribute dwd:design-time-name="06366e27-ef12-45d7-b568-d8d6c9cde2c3">
               <AttributeID>Id Day</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="22567a37-c740-4ab1-af90-709ca9fee9ab">
+                <KeyColumn dwd:design-time-name="e3c7ef15-ef2b-43b1-834b-255ab94c7182">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="919ebf77-8afc-4808-a96a-7adf70e3f717">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="649b5713-a06a-4fc7-a4f1-83ba68cb8474">
                     <TableID>dbo_fact_severity_phu</TableID>
                     <ColumnID>id_day</ColumnID>
                   </Source>
@@ -155,7 +175,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="b6cdbb05-0ac2-4ba2-93a5-1d1d8fdc3f72">
+  <Source dwd:design-time-name="d25436cf-c530-4065-9c2f-a26b176db35e">
     <DataSourceViewID>COVID 19 DDS</DataSourceViewID>
   </Source>
 </Cube>

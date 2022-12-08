@@ -1,0 +1,5 @@
+# cau 1
+select non empty crossjoin({[Measures].[Fataled Total], [Measures].[Infected Total], 
+[Measures].[Resolved Total]}, [Dim Phu].[Phu Name].[Phu Name]) on columns,
+[Dim Day].[Year].[Year] on rows
+from [Case_Amount_Cube]
