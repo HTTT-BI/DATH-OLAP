@@ -22,3 +22,29 @@ SELECT {[Measures].[ConverNullToZore_FataledTotal]} on columns,
 {[Dim Day].[Year].[Year], [Dim Day].[Year]})
 on rows
 from [Case_Amount_Cube]
+
+-- câu 7.1
+SELECT NonEmpty ({[Measures].[Infected Total],[Measures].[Decreased Total], 
+[Measures].[Recovered Total]}) on columns,
+NonEmpty ({[Dim Gender].[Gender].[Gender], [Dim Gender].[Gender]}) on rows
+from [Ontario_Case_Cube]
+
+-- câu 7.2
+SELECT NonEmpty({[Measures].[Infected Total],[Measures].[Decreased Total],
+[Measures].[Recovered Total]}) on columns,
+NonEmpty({([Dim Age Group].[Age Group].[Age Group],
+[Dim Gender].[Gender].[Gender])}) on rows
+from [Ontario_Case_Cube]
+
+-- câu 7.3
+SELECT NonEmpty({[Measures].[Infected Total],[Measures].[Decreased Total],
+[Measures].[Recovered Total]}) on columns,
+NonEmpty({([Dim Exposure].[Exposure].[Exposure])}) on rows
+from [Ontario_Case_Cube]
+
+-- câu 7.4
+SELECT NonEmpty({[Measures].[Infected Total],[Measures].[Decreased Total],
+[Measures].[Recovered Total]}) on columns,
+NonEmpty({([Dim Age Group].[Age Group].[Age Group],
+[Dim Gender].[Gender].[Gender], [Dim Exposure].[Exposure].[Exposure])}) on rows
+from [Ontario_Case_Cube]
