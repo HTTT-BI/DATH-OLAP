@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1e6a1e4f-e928-4cf2-bb25-db69486891f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9a28f818-c8d7-453d-8d43-88538abe89fb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Ontario_Case_Cube</ID>
   <Name>Ontario_Case_Cube</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -43,116 +43,114 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="d365b338-0d49-4453-9890-82b9b5853e6e">
+    <Dimension dwd:design-time-name="d4316fb4-6f3c-4ac7-a395-2684cba26401">
       <ID>Dim Day</ID>
       <Name>Dim Day</Name>
       <DimensionID>Dim Day</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="121ebf47-9267-4e78-a25c-8183513fde6e">
+        <Attribute dwd:design-time-name="89db3a61-31d1-4616-a189-5bcd43528ce8">
           <AttributeID>Id Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cbf6976c-e7c8-460f-8bda-0ad9ddd20c49">
+        <Attribute dwd:design-time-name="94bef0a7-c9e8-42da-8094-6a7a0e5387f3">
           <AttributeID>Id Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="79eb555d-4bc5-4a44-9564-ea6ebd2003a1">
+        <Attribute dwd:design-time-name="7df105a0-fc4f-49bd-9688-32442d6a6ed5">
           <AttributeID>Id Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0d8169f1-293b-44b1-814a-2cf6cef9c666">
+        <Attribute dwd:design-time-name="29fe6e49-97bb-44bd-8924-1591cffc5985">
           <AttributeID>Id Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8b308cda-5ad5-4b57-beaf-c91a55ae3f4c">
+        <Attribute dwd:design-time-name="92676dd6-4936-4a30-bf77-52481621c205">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1ad09df3-d50a-41db-bff4-93b9e487731c">
+        <Attribute dwd:design-time-name="f974b7f7-f52f-4d1a-8964-eafc91967054">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="29aca01b-bcf8-4e58-adf3-a1a09b7035d1">
+        <Attribute dwd:design-time-name="38fe83ff-49e3-49bd-832f-27b26aaa8816">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7a9680fa-d6c4-454f-8c32-fac967b98131">
+        <Attribute dwd:design-time-name="1b87e89e-3fbc-412f-8f30-1fcce716527d">
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="ffcd6ba8-2330-4b32-b1a6-4da49fe7f92f">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="78864d30-0e93-4736-9149-752d5e50dd59">
+    <Dimension dwd:design-time-name="c7098244-b5b2-4587-b28d-035558cba15a">
       <ID>Dim Exposure</ID>
       <Name>Dim Exposure</Name>
       <DimensionID>Dim Exposure</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="97a8dc64-3405-46a8-8c20-0b9250f6e1d1">
+        <Attribute dwd:design-time-name="62fd0080-5ca1-4b2a-9df0-68b3f4e121d7">
           <AttributeID>Id Exposure</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="78bce000-ee24-4aa2-a8f6-9b0cda73707e">
+        <Attribute dwd:design-time-name="065c1631-5ddc-4e58-9fcb-9d464c4ba9a2">
           <AttributeID>Exposure</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="1b51a38a-9a79-4363-8d8c-06d47475c63d">
+    <Dimension dwd:design-time-name="a29ede55-7717-4b9b-a7a9-dbfe40c6d475">
       <ID>Dim Gender</ID>
       <Name>Dim Gender</Name>
       <DimensionID>Dim Gender</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="37868f30-1a3f-4ddd-960f-9bd79989c37a">
+        <Attribute dwd:design-time-name="be150030-349d-449b-aa4f-ac166f44436f">
           <AttributeID>Id Gender</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c271fb34-bcaa-4755-969a-9254b22915fe">
+        <Attribute dwd:design-time-name="8a6a1a8e-33f0-4548-a344-4acfc7c48c07">
           <AttributeID>Gender</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="07f06588-8fb3-44b7-9806-b720fc4bf0e8">
+    <Dimension dwd:design-time-name="ced0a71c-a1a3-4da6-9ee7-f6f238a4d5bd">
       <ID>Dim Object</ID>
       <Name>Dim Object</Name>
       <DimensionID>Dim Object</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="11e6d12c-1850-42e6-8686-0a77472e2c9a">
+        <Attribute dwd:design-time-name="b2067c66-4852-4a0a-9159-5c7d14fe9348">
           <AttributeID>Id Object</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="59cdb478-eaf4-475a-a7bf-77703d605226">
+    <Dimension dwd:design-time-name="613929e4-36cb-45fc-953b-3ffb737350c6">
       <ID>Dim Phu</ID>
       <Name>Dim Phu</Name>
       <DimensionID>Dim Phu</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="23cdb96f-e8e8-4e17-8702-a25c56642b9d">
+        <Attribute dwd:design-time-name="37164f97-bad0-4771-90c0-36e9a3695a8b">
           <AttributeID>Id Phu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1e37cb87-3027-44f0-8d53-85683958820c">
+        <Attribute dwd:design-time-name="85c4d309-0bfb-42e0-8117-42263a07491e">
           <AttributeID>Id City</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1f53f7f6-1f2d-4164-b1cc-ee6c8c9b72a2">
+        <Attribute dwd:design-time-name="8bb5c0b2-d98f-40fc-b755-dd029eca00fd">
           <AttributeID>Id Phu Group</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="447bc261-031e-4131-a9ab-4c4c2660b037">
+        <Attribute dwd:design-time-name="e935210a-91bd-48dc-9813-646c9f13ed32">
           <AttributeID>Phu Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="704dafa1-b81f-40be-9fbf-bea939e3a71f">
+          <AttributeID>City Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c57871f8-099e-4db1-b62e-2916fd74ee9d">
+          <AttributeID>Phu Group Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="c7228a21-f251-4e6f-8fdf-87db31c7b44f">
+    <Dimension dwd:design-time-name="74f9985b-5e87-4a8f-80e0-f69c8296e380">
       <ID>Dim Age Group</ID>
       <Name>Dim Age Group</Name>
       <DimensionID>Dim Age Group</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2141cf50-3b06-48d7-b483-b987eb6208d0">
+        <Attribute dwd:design-time-name="f772860d-b7e8-4af7-96dc-540cb2c3678d">
           <AttributeID>Id Age Group</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5e4bca21-a06c-45e9-8c1d-dfc0bbe164b4">
+        <Attribute dwd:design-time-name="cb54715b-73a0-4f61-b724-415ed887e3cd">
           <AttributeID>Age Group</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="43dbe1f5-1340-408d-aa1f-24526330bd59">
-          <AttributeID>Age Group 1</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="b2aa7a0b-3dd4-497c-91d6-5f1c35536624">
+    <MeasureGroup dwd:design-time-name="c62e1819-da17-4fba-a4b7-13b66ab92202">
       <ID>Fact Ontario Case</ID>
       <Name>Fact Ontario Case</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -160,47 +158,47 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="ae7e7945-ff6e-4910-9cb2-051f5af1fc55">
+        <Measure dwd:design-time-name="4d63d5ab-702f-4848-8586-b15c86d0b33a">
           <ID>Recovered Total</ID>
           <Name>Recovered Total</Name>
-          <Source dwd:design-time-name="c432e1c5-62d9-43ec-a669-04a455cc6c0e">
+          <Source dwd:design-time-name="2211e21b-556c-4bab-ae3c-77980254fb2c">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="7ed67bee-e6fa-4ab8-a833-42c79b5277f4">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="43130c25-fd5e-401d-8090-f3e7cbb071a3">
               <TableID>dbo_fact_ontario_case</TableID>
               <ColumnID>recovered_total</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c779a1f0-3ca4-4ac7-bf44-198ab98b52a2">
+        <Measure dwd:design-time-name="d23ab588-cae5-4162-b440-030da13a7625">
           <ID>Decreased Total</ID>
           <Name>Decreased Total</Name>
-          <Source dwd:design-time-name="5feef62f-e7c6-41eb-9b84-9f7ae05e9406">
+          <Source dwd:design-time-name="d216cc9c-07f8-4f0e-bbe3-bbfd42640a44">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="1e9e0757-b6c6-4944-82d8-a180059d6783">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="883fc4f0-7783-4ef9-822d-dd64e090634a">
               <TableID>dbo_fact_ontario_case</TableID>
               <ColumnID>decreased_total</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="13e95827-1145-4d1f-8ce9-43890a9991f2">
+        <Measure dwd:design-time-name="4821d74f-7aff-4496-bfb1-a9d1288d63e9">
           <ID>Infected Total</ID>
           <Name>Infected Total</Name>
-          <Source dwd:design-time-name="ae317822-d1a5-4d00-ab50-9ff1dbb2728d">
+          <Source dwd:design-time-name="f0549fba-9f95-4c05-a3f8-e7a1a1f7e9e8">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="563b81cf-250b-447d-b068-92b7a49b7851">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="01655990-d7b7-46ee-8979-039e946c8442">
               <TableID>dbo_fact_ontario_case</TableID>
               <ColumnID>infected_total</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="7a6b892a-803c-45de-ad3e-043d409c6bf7">
+        <Measure dwd:design-time-name="b22adebb-52bd-4379-83cd-b4a5721ae253">
           <ID>Fact Ontario Case Count</ID>
           <Name>Fact Ontario Case Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="8aa0dea8-a850-4c9b-b1ce-5aedec963027">
+          <Source dwd:design-time-name="b1a3ec55-d39c-4476-8f43-2d97369bd681">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2830b47f-3e1a-4306-98fa-aa98d1c8c6ba">
+            <Source xsi:type="RowBinding" dwd:design-time-name="98befa9a-94fe-4a11-8ab2-5d0a7877f46e">
               <TableID>dbo_fact_ontario_case</TableID>
             </Source>
           </Source>
@@ -209,15 +207,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cec936b2-780f-4ca2-ae77-e34450e9193a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f2a3e748-a358-42cf-807b-a1282241eebe">
           <CubeDimensionID>Dim Day</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a0ae9b15-bb5d-4e99-a809-a91838303574">
+            <Attribute dwd:design-time-name="275de374-f58a-4fea-b79a-e760a4eba7af">
               <AttributeID>Id Day</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="606e3cc8-7171-448f-afbd-eead89e4bdc1">
+                <KeyColumn dwd:design-time-name="ff841dfd-2b83-45f5-85ef-c0e51132d57a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ab81b7aa-ef89-48f7-bc07-69417061621c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6ad10485-01b3-4319-bb21-46526aaee6cb">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_day</ColumnID>
                   </Source>
@@ -227,15 +225,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="879c34e2-2fef-47c6-98e1-8a77973f4815">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f119ec0c-bc39-4698-ba0b-36c948ed1b57">
           <CubeDimensionID>Dim Exposure</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1d54aa8c-c0f3-4b32-8c6a-3379bcd70041">
+            <Attribute dwd:design-time-name="33e44a14-9b60-4b78-a19f-b8187648011e">
               <AttributeID>Id Exposure</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c1dba2fc-b162-4ffa-9992-61c72ede61d3">
+                <KeyColumn dwd:design-time-name="fbbbf76d-253a-4497-b2d2-d8bcbdbac477">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6c879c60-4e8a-4883-9dbf-9160f27e4b08">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d52ac3fd-57d0-4368-a60e-6422c3608652">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_exposure</ColumnID>
                   </Source>
@@ -245,15 +243,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e05f0f76-6a45-4f41-83fb-50639095a658">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="aebba0bc-efb2-4ba3-8c74-e94395a2b455">
           <CubeDimensionID>Dim Gender</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1972e8d8-9ae4-46e5-bf5e-74957fa041d3">
+            <Attribute dwd:design-time-name="2a132492-01f3-415f-be95-3952fc6dae82">
               <AttributeID>Id Gender</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="b2789993-70db-4612-822d-ca91f5edbff5">
+                <KeyColumn dwd:design-time-name="3c2f41b5-c1bf-4018-b4c4-c0760e1c637a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="696863cc-2fb6-4baa-8639-8e41d518b079">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="da027afa-d491-40cb-8285-675d8a17311e">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_gender</ColumnID>
                   </Source>
@@ -263,15 +261,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b91532ed-62bc-47a8-8b34-2d8e9ab202b6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ad0bd771-3e93-436a-8898-c2bd46690d02">
           <CubeDimensionID>Dim Object</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="47c43303-80b0-476d-a0ae-210068149dac">
+            <Attribute dwd:design-time-name="2f405817-2d62-4f72-adb7-e9df063b8cf6">
               <AttributeID>Id Object</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="81af9c13-a7ab-4acf-b01b-5433d0110f0d">
+                <KeyColumn dwd:design-time-name="1d0d6bda-68f0-4735-afcc-8f90d3d81a73">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2018cfcb-564c-445e-96cb-517ffc6bb565">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4270f7e-878e-4680-9ab0-b950e18e1e4c">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_object</ColumnID>
                   </Source>
@@ -281,15 +279,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1ea45ee3-9d46-47b6-9e3c-e1df0e82ea36">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="719a9212-e568-417f-b59c-5769447ba42c">
           <CubeDimensionID>Dim Phu</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="66081c97-8f08-4f42-8642-caa192657805">
+            <Attribute dwd:design-time-name="0112cece-5e54-4f7a-95d7-6a3876d95269">
               <AttributeID>Id Phu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="81f9bedc-8e2e-42dd-820e-ffd17c76b494">
+                <KeyColumn dwd:design-time-name="b6ef1b0a-86a5-4732-8738-c0d750878a2a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e4c6565-c6a2-4625-9d9b-6d8af8a8003c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f5c7f884-4a75-49d4-b357-289554ca9805">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_phu</ColumnID>
                   </Source>
@@ -299,15 +297,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dc33c0b1-7056-4d3e-b6b7-8e5cd4caf87f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="452e3d21-f995-4a27-a109-ef3aeaefce92">
           <CubeDimensionID>Dim Age Group</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a3416f80-7fe6-4443-930c-46030d2fe8db">
+            <Attribute dwd:design-time-name="d8e2e7dc-59ee-48ae-bbf8-8812faee85f6">
               <AttributeID>Id Age Group</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e0c38de3-3891-40d8-88ab-4caa73f8b1f2">
+                <KeyColumn dwd:design-time-name="dd5a671d-b0ad-46a8-a2a2-8d9cf08dc0de">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adaafc39-b617-4478-a6d3-385bfba6d82f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7915ca5f-c552-4308-a094-bc14ee64a1f8">
                     <TableID>dbo_fact_ontario_case</TableID>
                     <ColumnID>id_age_group</ColumnID>
                   </Source>
@@ -321,7 +319,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="8b2bfe9e-820b-4ef1-9508-ada08a5acf6e">
+  <Source dwd:design-time-name="97ef0958-8e85-42f6-b41d-7368a5ae50c8">
     <DataSourceViewID>COVID 19 DDS</DataSourceViewID>
   </Source>
 </Cube>
