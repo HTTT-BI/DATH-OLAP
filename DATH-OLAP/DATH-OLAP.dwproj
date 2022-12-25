@@ -82,20 +82,20 @@
       <FullPath>Dim Day.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Exposure.dim</Name>
-      <FullPath>Dim Exposure.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Gender.dim</Name>
       <FullPath>Dim Gender.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Age.dim</Name>
+      <FullPath>Dim Age.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Object.dim</Name>
       <FullPath>Dim Object.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Age Group.dim</Name>
-      <FullPath>Dim Age Group.dim</FullPath>
+      <Name>Dim Exposure.dim</Name>
+      <FullPath>Dim Exposure.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Outbreak Group.dim</Name>
